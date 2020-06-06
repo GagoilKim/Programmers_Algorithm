@@ -7,7 +7,7 @@ def solution(heights):
             ind = len(heights)-j-1
             if heights[ind]> tmp:
                 answer.append(ind+1)
-                break;
+                break
         if bef == len(answer):
             answer.append(0)
     last = []
