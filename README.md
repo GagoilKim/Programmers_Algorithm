@@ -3,7 +3,9 @@ This is a solution to algorithm problems on 'Programmers'.
 
 ## Contents
 *[DartGame](https://github.com/GagoilKim/Programmers_Algorithm/blob/master/DartGame.py)
+
 *[FunctionDevelop](https://github.com/GagoilKim/Programmers_Algorithm/blob/master/FunctionDevelop.py)
+
 *[IncompletePlayer](https://github.com/GagoilKim/Programmers_Algorithm/blob/master/IncompletePlayer.java)
 *[IronStick](https://github.com/GagoilKim/Programmers_Algorithm/blob/master/IronStick.py)
 *[Joystick](https://github.com/GagoilKim/Programmers_Algorithm/blob/master/Joystick.py)
