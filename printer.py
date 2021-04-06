@@ -1,26 +1,24 @@
 def solution(priorities, location):
     answer = 0
-    large = max(priorities)
-    size = len(priorities)
-    target = priorities[location]
-    for x in range(0, len(priorities)):
-        maximum = max(priorities)
-        while priorities.index(maximum) != 0:
-            tmp = priorities[0]
-            priorities.pop(0)
-            priorities.append(tmp)
-            print(priorities)
-            answer+=1
-
-        if priorities.index(target) ==  0:
-            break;
+    count = 0
+    pick = location
+    while len(priorities) != 0:
+        m = max(priorities)
+        if pick == 0:
+            if m == priorities[pick]:
+                count += 1
+                return count
+            else:
+                tmp = priorities.pop(0)
+                priorities.append(tmp)
+                pick = len(priorities)-1
         else:
-            priorities.pop(0)
+            tmp = priorities.pop(0)
+            if m == tmp :
+                count += 1
+            else:
+                priorities.append(tmp)
+            pick -= 1
+                
 
-    if large == target:
-            answer-=1
-            return answer
-    else:
-        answer = size - answer+1
-             
-    return answer
+    return count
