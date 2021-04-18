@@ -1,5 +1,5 @@
 # Programmers_Algorithm
-This is a solution to algorithm problems on 'Programmers'.
+This repository is for the solutions for algorithm problems on 'Programmers'.
 
 ## Contents
 *[DartGame](https://github.com/GagoilKim/Programmers_Algorithm/blob/master/DartGame.py)
