@@ -38,7 +38,7 @@ This is a solution to algorithm problems on 'Programmers'.
 
 *[PrimeNumber](https://programmers.co.kr/learn/courses/30/lessons/42839?language=python3)
 
-**[CrainDollPick](https://programmers.co.kr/learn/courses/30/lessons/64061)
+*[CrainDollPick](https://programmers.co.kr/learn/courses/30/lessons/64061)
 
 ## Reference
 
