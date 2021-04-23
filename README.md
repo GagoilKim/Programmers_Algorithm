@@ -40,6 +40,8 @@ This repository is for the solutions for algorithm problems on 'Programmers'.
 
 *[CrainDollPick](https://programmers.co.kr/learn/courses/30/lessons/64061)
 
+*[NextBiggerNum](https://programmers.co.kr/learn/courses/30/lessons/12911)
+
 ## Reference
 
 [Programmers](https://programmers.co.kr/learn/challenges?tab=all_challenges)
